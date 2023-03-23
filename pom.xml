@@ -11,7 +11,7 @@
 	<groupId>cn</groupId>
 	<artifactId>paypal</artifactId>
 	<version>1</version>
-	<name>spring-boot-2016</name>
+	<name>paypal</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 
@@ -58,14 +58,14 @@
             <artifactId>commons-logging</artifactId>
             <version>1.2</version>
         </dependency>
-        
+
         <!--热部署  -->
         <dependency>
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-devtools</artifactId>
         	<optional>true</optional>
         </dependency>
-        
+
         <!-- 引入 redis 依赖 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -79,7 +79,7 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
 		</dependency>
-		
+
 		<!-- httpclient -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -133,6 +133,6 @@
             </resource>
         </resources>
 	</build>
-	
+
 
 </project>
